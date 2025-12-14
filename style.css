@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #e3fbf0;
+}
+
+/* navbar */
+.navbar {
+    background-color: #0F1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.box1 h4,
+p {
+    color: aliceblue;
+    display: flex;
+}
+
+.box1 :hover {
+    border: 1px solid white;
+
+}
+
+.box1 {
+    width: 100px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon {
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+.location {
+    color: aliceblue;
+}
+
+
+
+.nav-search {
+    display: flex;
+    width: 620px;
+    height: 40px;
+
+
+}
+
+.select {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    width: 50px;
+    border: none;
+    text-align: center;
+}
+
+.input {
+    border: none;
+    width: 100%;
+}
+
+.search-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 204, 0);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 45px;
+    text-align: center;
+}
+
+.box3 {
+    color: white;
+    display: flex;
+}
+
+
+.box5 {
+    color: white;
+    display: flex;
+}
+
+
+/* pannel */
+
+
+.pannel {
+    background-color: #232F3E;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.p-box1 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* background image */
+
+.bg-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 470px;
+    vertical-align: top;
+
+}
+
+
+/* Shopping section */
+.products{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-evenly;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.item img {
+    margin-top: 15px;
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+
+}
+.item p{
+    color: #0F1111;
+    font-size: 14px;
+}
+
+.shop-box {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px;
+    background-position: center;
+}
+a{
+    margin-top: auto;
+    text-decoration: none;
+    color: rgb(41, 122, 215);
+    display: block;
+    font-size: 15px;
+}
+/* clothes */
+.clothing{
+    margin: 10px 50px 0px 50px;
+    background-color: white;
+    padding: 20px 20px 10px 20px;
+}
+.clothes{
+    overflow: auto;
+    display: flex;
+    gap: 50px;
+}
+/* bikes */
+.bikes{
+    margin: 20px 50px 0px 50px;
+    background-color: white;
+    padding: 20px 20px 10px 20px;
+    
+    
+}
+.bike-head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bike-items{
+    overflow: auto;
+    display: flex;
+    gap: 20px;
+}
+
+/* footer */
+.foot-box1 {
+    display: flex;
+    height: 50px;
+    background-color: #37475a;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.foot-box2 {
+    height: 300px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-box2 p {
+    margin-top: 20px;
+    font-size: 1.25rem;
+
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.foot-box3 {
+    background-color: #232F3E;
+    color: white;
+    border-top: 0.5px solid #405166;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo {
+    width: 100px;
+    height: 30px;
+    background-size: cover;
+
+}
